@@ -1,0 +1,145 @@
+body{
+ margin: 0;
+ text-align: center;
+ font-family:'Merriweather', serif;
+ color: #40514E;;
+}
+
+h1{
+  margin: 50px auto 0 auto; /* for padding choose pixel */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;  /* we want 90px on 100% zoom ; 16px=100%=1em ; (90px/16px)x100 = 562.5;
+  em is the width of M used in olden DAYS ; 1 em = 100%*/
+  /* px em are static donot change from outside but % are dynamic ; 
+  hence to make em dynamic set it to rem*/     /* always use rem for sizing text*/
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+  padding-bottom: 20px ;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  color :#11999E;
+  font-size: 2rem;
+}
+p{
+  line-height: 1.8;
+}
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color :#11999e;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#eaf6f6
+}
+.contact-me{
+  width: 50%;
+  margin: 40px auto 60px  ;
+  line-height: 1.8;
+}
+.top-container {
+  position: relative;
+}
+.heading1{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+.heading2{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+.skill-row{
+
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.schedule-pic{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.web-pic{
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.book-pic{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.intro{
+  width: 40%;
+  margin:auto;
+}
+.middle-container {
+  margin: 200px 0 ;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.top-cloud {
+
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+
+  position: absolute;
+  left: 300px;
+  bottom: 300;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199E);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199E);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199E);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
