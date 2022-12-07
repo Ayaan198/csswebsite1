@@ -114,6 +114,10 @@ a:hover{
   left: 300px;
   bottom: 300;
 }
+.background-img{
+  margin-top:10px;
+  border-radius: 08%;
+}
 .copyright{
   color: #eaf6f6;
   font-size: 0.75rem;
