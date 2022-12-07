@@ -13,6 +13,7 @@ h1{
   /* px em are static donot change from outside but % are dynamic ; 
   hence to make em dynamic set it to rem*/     /* always use rem for sizing text*/
   color: #66BFBF;
+  font-size: 40px;
 }
 h2{
   font-family: 'Poppins', sans-serif;
