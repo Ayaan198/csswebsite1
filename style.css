@@ -13,7 +13,7 @@ h1{
   /* px em are static donot change from outside but % are dynamic ; 
   hence to make em dynamic set it to rem*/     /* always use rem for sizing text*/
   color: #66BFBF;
-  font-size: 40px;
+  font-size: 4rem;
 }
 h2{
   font-family: 'Poppins', sans-serif;
@@ -21,12 +21,13 @@ h2{
   color: #66BFBF;
   font-weight: bold;
   padding-bottom: 20px ;
+  font-size: 4rem;
 }
 
 h3{
   font-family: 'Poppins', sans-serif;
   color :#11999E;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 p{
   line-height: 1.8;
